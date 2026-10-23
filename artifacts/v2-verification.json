@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-23",
+  "application": "Beyond The Frame",
+  "version": "2.0",
+  "platformTarget": "Fire OS APK",
+  "sourceVideoSHA256": "ae3a47ddb98838538bec2c03b51c853e351e448cfd5184612045265aec52b378",
+  "analysis": {
+    "profile": "studio",
+    "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "frames": 358,
+    "trackIds": 41,
+    "calibratedFrames": 292,
+    "segments": 2,
+    "ballInference": false,
+    "provenance": {
+      "kind": "model-generated",
+      "source": "Local inference adapted from supplied notebook (4)",
+      "pipelineVersion": "2.0",
+      "models": {
+        "player": {
+          "file": "football-player-detection.pt",
+          "sha256": "75b09c377fbf9d0791d23f6cfb689f5aed6eaa43a6818bd1fb884cf7507fffaf"
+        },
+        "pitch": {
+          "file": "football-pitch-detection.pt",
+          "sha256": "28f68f7c4056d6d9b137efd2e7ab5f3c494039380c63831649126ced25628b36"
+        },
+        "ultralytics": "8.4.184",
+        "torch": "2.5.1+cu124"
+      },
+      "appearanceGrouping": "Two-group torso LAB clustering; unverified team identities",
+      "limitations": [
+        "Anonymous track IDs",
+        "Tentative appearance groups",
+        "Scorer is a candidate heuristic, not verified identity",
+        "Approximate planar calibration"
+      ],
+      "mode": "studio",
+      "ballDetection": false
+    }
+  },
+  "checks": {
+    "coreTests": 11,
+    "browserSportsFlow": "passed",
+    "browserImportAndTVLayout": "passed",
+    "apkCompile": "passed",
+    "apkSignatures": [
+      "v2",
+      "v3"
+    ],
+    "apkAssetsMatchSource": true,
+    "detectiveMediaInAPK": false,
+    "FireTVRuntime": "NOT TESTED"
+  },
+  "apk": {
+    "bytes": 5325821,
+    "sha256": "edd8ed5854c6de6daf998a3cd97be4b691c05a3cf74aad2d6cfb924d59b6aff6"
+  }
+}

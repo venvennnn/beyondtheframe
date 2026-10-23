@@ -1,0 +1,4 @@
+{
+  "name": "beyond-the-frame", "version": "1.0.0", "private": true,
+  "scripts": {"start":"node scripts/serve.cjs", "test":"node --test tests/*.test.cjs", "check":"node --check web/app.js"}
+}

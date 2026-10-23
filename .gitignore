@@ -1,0 +1,9 @@
+.tools/
+node_modules/
+android/.gradle/
+android/local.properties
+android/app/build/
+__pycache__/
+models/
+
+.venv/

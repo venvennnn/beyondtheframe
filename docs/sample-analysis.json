@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "coordinateSystem": "normalized-image",
+  "video": {
+    "name": "football.mp4",
+    "sha256": "ae3a47ddb98838538bec2c03b51c853e351e448cfd5184612045265aec52b378",
+    "duration": 14.32,
+    "width": 854,
+    "height": 480,
+    "fps": 25
+  },
+  "provenance": {
+    "kind": "fixture",
+    "source": "Schema example only. No detections inferred.",
+    "pipelineVersion": "1.0"
+  },
+  "frames": [
+    {
+      "time": 0,
+      "segment": 0,
+      "calibration": {
+        "valid": false,
+        "homography": null
+      },
+      "tracks": [],
+      "balls": []
+    }
+  ],
+  "events": [],
+  "evidence": []
+}
